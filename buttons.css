@@ -32,9 +32,22 @@ body {
     position: relative;
 }
 
+.try-me sec1::before {
+    content: "";
+    width: 15;
+    top: 0;
+    left: 0;
+    position: absolute;
+
+}
+
+.try-me sec1:hover::before {
+    
+
+}
 /* Transition 1: Color Change */
 .try-me:hover {
-    background-color: #ce7044;
+    background-color: #16e60b;
 }
 
 /* Transition 2: Scale Effect */
@@ -61,7 +74,7 @@ body {
 
 /* Transition 6: Gradient Background */
 .try-me.gradient:hover {
-    background: linear-gradient(45deg, #ff6b6b, #f06595);
+    background: linear-gradient(45deg, #ff6b6b, #a95774);
     color: white;
 }
 
